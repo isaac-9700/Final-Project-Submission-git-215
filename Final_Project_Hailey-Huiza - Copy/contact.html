@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Isaac Hailey-Huiza">
+        <meta name="description" content="Alps Ski Resort Contact page website design">
+        <title>The Alps Ski Resort | Contact</title>
+        <link rel="stylesheet" href="obfuscatedstyles.css">
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <header>
+         
+            <h1><a href="index.html">The Alps Ski Resort</a></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Accommodations</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+
+        </header>
+
+        <main>
+            
+            <section id="contact-us">
+                <h2>Contact Us</h2>
+                <p>
+                    Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!
+                    Required fields marked with a *
+                </p>
+                <img src="images/swiss-sunset.jpg" alt="scene of swiss sunset">
+            </section>
+
+            <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+                <div class="form-page">
+                  <label for="my-name">Full Name*</label>
+                  <input type="text" name="my-name" id="my-name" required>
+  
+                  <label for="my-email">Email Address*</label>
+                  <input type="email" name="my-email" id="my-email" required>
+  
+                  <label for="my-phone">Phone Number*</label>
+                  <input type="tel" name="my-phone" id="my-phone" required>
+              </div>
+  
+              <div class="form-page">
+                  <fieldset>
+                      <legend>Preferred Method of Contact</legend>
+                      <input type="radio" name="contact-pref" id="pref-email">
+                      <label for="pref-email">Email</label>
+                      <input type="radio" name="contact-pref" id="pref-phone">
+                      <label for="pref-phone">Phone</label>
+                  </fieldset>
+  
+                  <label for="my-comments">Comments*</label>
+                  <textarea name="my-comments" id="my-comments" required></textarea>
+  
+                  <input type="submit" name="my-submit" id="my-submit" value="Submit Form">
+                </div>
+              </form>
+        
+        </main>
+
+        <footer>
+            <p>Copyright &copy; 2023 - The Alps Ski Resort</p>
+            <p>This site is for educational purposes only</p>
+        </footer>
+
+    </body>
+</html>
